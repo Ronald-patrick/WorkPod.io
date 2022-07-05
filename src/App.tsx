@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home"
+import ProjectHome from "./pages/ProjectHome";
 import ProjectSelection from "./pages/ProjectSelection";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/projects" element={<ProjectSelection/>} />
+          <Route path="/projects/:id" element={<ProjectHome/>} />
         </Routes>
       </div>
     </Router>

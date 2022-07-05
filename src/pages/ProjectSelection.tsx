@@ -37,7 +37,8 @@ const ProjectSelection = () => {
 
         <div className="flex justify-start items-center font-main gap-5 mt-20">
 
-            <div className="w-[250px] h-[200px] border-2 border-gray-200 rounded-xl flex flex-col justify-between p-2 bg-blue-50 cursor-pointer hover:shadow-xl">
+          <Link to="/projects/fakfc2">
+          <div className="w-[250px] h-[200px] border-2 border-gray-200 rounded-xl flex flex-col justify-between p-2 bg-blue-50 cursor-pointer hover:shadow-xl">
               <FolderIcon className="w-16 h-16 text-blue-600" />
               <div className="font-bold text-xl text-gray-600">
                 WorkPod App
@@ -46,6 +47,8 @@ const ProjectSelection = () => {
               </div>
               </div>
             </div>
+          </Link>
+
 
             <div className="w-[250px] h-[200px] border-2 border-gray-200 rounded-xl flex flex-col justify-between p-2 bg-pink-50 cursor-pointer hover:shadow-xl">
               <FolderIcon className="w-16 h-16 text-pink-600" />
