@@ -10,6 +10,8 @@ module.exports = {
         primaryD : "#300c32",
         body : "#f7fafc",
         secondary : "#b7791f",
+        purpleL:"#805683",
+        lred:"#bc2453"
       },
       fontFamily:{
         main : ['Nunito']

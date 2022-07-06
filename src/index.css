@@ -10,6 +10,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -22,4 +23,13 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sactive
+{
+    background-color: theme('colors.lred');
+    color:white;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px ;
+    cursor: pointer;
 }

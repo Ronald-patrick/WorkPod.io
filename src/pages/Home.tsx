@@ -12,7 +12,7 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center w-full text-center font-main h-[70vh]">
           <div className="font-bold text-[40px] md:text-[60px] ">
             Build products <br /> efficiently with our <br />
-            <span className="text-[#805683]">Work Pod Environment</span>
+            <span className="text-purpleL">Work Pod Environment</span>
           </div>
 
           <p className="text-2xl text-gray-500 w-full md:w-[550px] my-10">

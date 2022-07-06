@@ -1,5 +1,4 @@
 import React from "react";
-import Wrapper from "../components/Wrapper";
 import { Link } from "react-router-dom";
 
 import { SearchIcon, ViewGridIcon, MenuAlt2Icon,PlusIcon,FolderIcon } from "@heroicons/react/solid";
