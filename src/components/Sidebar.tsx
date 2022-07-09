@@ -6,6 +6,7 @@ import {
   FlagIcon,
   MenuIcon,
   TerminalIcon,
+  BellIcon
 } from "@heroicons/react/solid";
 
 interface Props {
@@ -27,16 +28,6 @@ const Sidebar = ({isActive,setisActive}:Props) => {
         <div className="flex flex-col gap-4 text-md">
           <div
             onClick={() => {
-              setisActive(0);
-            }}
-            className={`text-purpleL cursor-pointer flex items-center ${
-              isActive === 0 ? "sactive" : ""
-            }`}
-          >
-            <FlagIcon className="w-6 h-6 mr-2" /> Milestones
-          </div>
-          <div
-            onClick={() => {
               setisActive(1);
             }}
             className={`text-purpleL cursor-pointer flex items-center ${
@@ -53,7 +44,7 @@ const Sidebar = ({isActive,setisActive}:Props) => {
               isActive === 2 ? "sactive" : ""
             }`}
           >
-            <EyeIcon className="w-6 h-6 mr-2" /> Timesheet
+            <ChatAlt2Icon className="w-6 h-6 mr-2" /> Team Chat
           </div>
           <div
             onClick={() => {
@@ -63,7 +54,7 @@ const Sidebar = ({isActive,setisActive}:Props) => {
               isActive === 3 ? "sactive" : ""
             }`}
           >
-            <ChatAlt2Icon className="w-6 h-6 mr-2" /> Feed
+            <BellIcon className="w-6 h-6 mr-2" /> Feed
           </div>
         </div>
 
