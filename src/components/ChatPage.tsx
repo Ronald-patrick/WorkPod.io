@@ -66,7 +66,7 @@ const ChatPage = ({ id }: Props) => {
                   <div className="chatto">{chat.msg}</div>
                   <img
                     className="w-10 h-10"
-                    src="https://api.multiavatar.com/2.png"
+                    src="https://api.multiavatar.com/4.png"
                     alt="avatar"
                   />
                 </div>

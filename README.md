@@ -12,3 +12,16 @@
 </ul>
 
 <hr>
+
+<h1>Features :</h1>
+
+<h2>List of bugs in project active / completed</h2>
+<img style="width:100%" src="./assets/s2.png"/>
+
+<h2>Inbuilt Chat system</h2>
+<img style="width:100%" src="./assets/s1.png"/>
+
+<h2>Feed space to post announcements</h2>
+<img style="width:100%" src="./assets/s3.png"/>
+
+<hr>
