@@ -2,8 +2,6 @@ import {
   ChatAlt2Icon,
   CloudIcon,
   CogIcon,
-  EyeIcon,
-  FlagIcon,
   MenuIcon,
   TerminalIcon,
   BellIcon

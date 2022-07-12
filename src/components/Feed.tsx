@@ -7,7 +7,8 @@ const Feed = () => {
         <h1 className="text-2xl font-bold ml-8">Feed</h1>
       </div>
       <div className="flex flex-col mt-4 ml-8">
-        <div className="max-w-[1200px] w-screen border-l-4 border-primary bg-white mt-4">
+
+        <div className="md:max-w-[1200px] w-screen border-l-4 border-primary bg-white mt-4">
           {/*          Header          */}
           <div className="flex justify-between items-center w-full my-4">
             <div className="flex justify-center items-center">
@@ -29,12 +30,12 @@ const Feed = () => {
           </div>
         </div>
 
-        <div className="max-w-[1200px] w-screen border-l-4 border-primary bg-white mt-4">
+        <div className="md:max-w-[1200px] w-screen border-l-4 border-primary bg-white mt-4">
           {/*          Header          */}
           <div className="flex justify-between items-center w-full my-4">
             <div className="flex justify-center items-center">
               <img
-                src="https://api.multiavatar.com/4.png"
+                src="https://api.multiavatar.com/4.svg"
                 className="w-16 h-16 rounded-full mx-4"
                 alt="Avatar"
               />

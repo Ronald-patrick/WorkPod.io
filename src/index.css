@@ -33,3 +33,70 @@ code {
     border-radius: 10px 0px 0px 10px ;
     cursor: pointer;
 }
+
+.chatto{
+  align-self: flex-end;
+  background: theme('colors.purpleL');
+  color: white;
+  font-family: Nunito;
+  max-width: 50%;
+  min-width: 20%;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chatto-cont{
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.chatfrom-cont{
+  display: flex;
+  align-self: flex-start;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.chatfrom{
+  align-self: flex-start;
+  background: theme('colors.lred');
+  color: white;
+  font-family: Nunito;
+  max-width: 50%;
+  min-width: 20%;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.loader {
+	border-top-color: theme('colors.lred');
+	-webkit-animation: spinner 1.2s linear infinite;
+	animation: spinner 1.2s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
