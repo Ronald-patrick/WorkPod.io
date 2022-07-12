@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { SearchIcon, ViewGridIcon, MenuAlt2Icon,PlusIcon,FolderIcon } from "@heroicons/react/solid";
+import MobileView from "../components/MobileView";
 
 const ProjectSelection = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto pt-16">
+      <div className="max-w-7xl mx-auto pt-16 hidden md:block">
         <h1 className="font-bold text-2xl">Projects</h1>
         <div className="text-lg text-gray-500 my-4 ">
           Find your personal and shared projects
@@ -70,6 +71,8 @@ const ProjectSelection = () => {
             </div>
         </div>
       </div>
+
+      <MobileView/>
     </>
   );
 };

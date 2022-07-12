@@ -4,28 +4,13 @@ interface Props {
   id: string;
 }
 
+interface Chat{
+  self : boolean,
+  msg : string
+}
+
 const ChatPage = ({ id }: Props) => {
-    let chats = [
-        {
-          self: false,
-          msg: "Hi",
-        },
-        {
-          self: true,
-          msg: "Hi",
-        },
-        {
-          self: false,
-          msg: "Hi",
-        },
-      ];
-    const [chatlist, setChatlist] = useState(chats);
-
-    // useEffect(() => {
-      
-    // }, [chatlist])
-    
-
+    const [chatlist, setChatlist] = useState<Chat[]>([]);
 
   const addmsg = () => {
     let ele = (document.getElementById("msginput") as HTMLInputElement);

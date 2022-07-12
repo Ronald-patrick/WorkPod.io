@@ -24,9 +24,9 @@ const Home = () => {
             <Link to="/projects" className="bg-[#805683] px-6 py-2 rounded-md text-white shadow-md cursor-pointer text-xl flex gap-3">
                 Get Started <ArrowNarrowRightIcon className="w-7 h-7"/>
             </Link>
-            <Link to="/github" className="border text-secondary border-secondary px-6 py-2 rounded-lg shadow-lg cursor-pointer text-xl flex gap-3">
+            <a href="https://github.com/Ronald-patrick/WorkPod.io" className="border text-secondary border-secondary px-6 py-2 rounded-lg shadow-lg cursor-pointer text-xl flex gap-3">
                 Github <StarIcon className="w-7 h-7"/>
-            </Link>
+            </a>
           </div>
         </div>
       </Wrapper>
